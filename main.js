@@ -239,14 +239,43 @@ const products = [
 
 //2-masala
 
-function ortiq4dan(arr) {
-  let balandrating = [];
-  for (let i of arr) {
-    if (i.rating > 4) {
-      balandrating.push(i);
-    }
-  }
-  return balandrating;
-}
+// function ortiq4dan(arr) {
+//   let balandrating = [];
+//   for (let i of arr) {
+//     if (i.rating > 4) {
+//       balandrating.push(i);
+//     }
+//   }
+//   return balandrating;
+// }
 
-console.log(ortiq4dan(products));
+// console.log(ortiq4dan(products));
+
+//===========================================================================
+
+//3-masala
+
+// function nechtaMahsulot(arr) {
+//   return products.length;
+// }
+// console.log(nechtaMahsulot(products));
+
+//===================================================================================
+
+//4-masala
+
+// function chegirma(arr) {
+//   let yangiNarx = [];
+//   for (let i of arr) {
+//     if (i.price > 500) {
+//       i.price = i.price * 0.9;
+//       yangiNarx.push(i);
+//     } else {
+//       i.price = i.price * 1.1;
+//       yangiNarx.push(i);
+//     }
+//   }
+//   return yangiNarx;
+// }
+
+// console.log(chegirma(products));
