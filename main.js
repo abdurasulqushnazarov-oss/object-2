@@ -279,3 +279,18 @@ const products = [
 // }
 
 // console.log(chegirma(products));
+
+//=====================================================================
+
+//5-masala
+
+function categoryClothingsiz(arr) {
+  let clothingsiz = [];
+  for (let i of arr) {
+    if (i.category !== "Clothing") {
+      clothingsiz.push(i);
+    }
+  }
+  return clothingsiz;
+}
+console.log(categoryClothingsiz(products));
